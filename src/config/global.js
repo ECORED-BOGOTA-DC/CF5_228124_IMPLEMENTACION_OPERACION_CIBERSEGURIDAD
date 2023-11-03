@@ -1,17 +1,15 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo:
+      'Planificación, entrenamiento y concienciación en implementación de ciberseguridad',
+    descripcionCurso:
+      'Un motor de búsqueda es la herramienta en línea diseñada para buscar sitios web en internet; permite revisar los resultados en su propia base de datos, los clasifica y hace una lista ordenada de estos, utilizando algoritmos de búsqueda únicos. Por lo que el uso de estas herramientas, permite optimizar una marca como propósito que tiene una empresa continuamente.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
-      },
-      {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
       },
     ],
   },
@@ -31,28 +29,61 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Técnicas de planificación',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Pronósticos cualitativos y cuantitativos',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Planificación, necesidades y contexto organizacional',
+            hash: 't_1_2',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Entrenamiento y concienciación en ciberseguridad',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Fundamentos del entrenamiento en ciberseguridad',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Características del entrenamiento',
+            hash: 't_2_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Defensa en profundidad',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Conceptos de Defensa en Profundidad DID',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Capas de la defensa en profundidad',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: 'Características de la defensa en profundidad',
+            hash: 't_3_3',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -102,32 +133,80 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: '2.1. Fundamentos del entrenamiento en ciberseguridad',
+      referencia:
+        'Instituto Nacional de Ciberseguridad (2021). <em>Glosario de términos de ciberseguridad: una guía de aproximación para el empresario.</em> Incibe.',
+      tipo: 'Glosario',
+      link:
+        'https://www.incibe.es/empresas/guias/glosario-de-terminos-de-ciberseguridad-una-guia-de-aproximacion-para-el',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: '3.Defensa en profundidad',
+      referencia:
+        'Viveros, J. (2015). <em>Defensa en profundidad para proteger la información de la red corporativa</em>.',
+      tipo: 'Documento en línea',
+      link: 'http://polux.unipiloto.edu.co:8080/00002061.pdf',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Amenaza',
+      significado:
+        'se define como toda aquella acción o serie de acciones que aprovechan las vulnerabilidades para romper la seguridad de los sistemas.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Ciberseguridad',
+      significado:
+        'se define como la capacidad para minimizar el nivel de riesgo al que están expuestos los sistemas informáticos y sus usuarios, ante amenazas de naturaleza cibernética o digital. La ciberseguridad brinda a los gobiernos y las organizaciones la ciber-resiliencia como la capacidad para resistir, proteger y defender los sistemas de ciberataques.',
+    },
+    {
+      termino: 'Control o salvaguarda',
+      significado:
+        'medida de protección o control para contrarrestar amenazas.',
+    },
+    {
+      termino: 'Infraestructura TI',
+      significado:
+        'consiste en los componentes de <em>hardware</em> y <em>software</em> requeridos para gestionar y operar entornos tecnológicos que pueden ser implementados en instalaciones de la organización o en sistemas en la nube, Cloud Computing',
+    },
+    {
+      termino: 'Riesgo',
+      significado: '"contingencia o proximidad de un daño". RAE (2021)',
+    },
+    {
+      termino: 'Vulnerabilidad',
+      significado:
+        'en informática, se define como una debilidad o fallo de seguridad que se presenta en un sistema de información, que puede estar compuesto por software, hardware y otros componentes y servicios tecnológicos, generando riesgos de seguridad de la información.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Center for Internet Security (2021). <em>Foco de seguridad electoral - Defensa en profundidad (DiD)</em>. CISECURITY.',
+      link:
+        'https://www.cisecurity.org/spotlight/cybersecurity-spotlight-defense-in-depth-did/',
+    },
+    {
+      referencia:
+        'Raggi, N. (2021). <em>Defensa en profundidad: cómo implementar esta estrategia de ciberseguridad</em>. WELIVESECURITY.',
+      link:
+        'https://www.welivesecurity.com/la-es/2021/03/26/defensa-profundidad-que-es-como-implementar-estrategia-ciberseguridad/',
+    },
+    {
+      referencia: 'Robbins, R. & Couter, M. (2005). <em>Administración</em>.',
+      link:
+        'https://www.auditorlider.com/wp-content/uploads/2019/06/Administracion-8ed-Stephen-P.-Robbins-y-Mary-Coulter-1.pdf',
+    },
+    {
+      referencia:
+        'Rodríguez, A., Yépez, J., Peralta, T. & Ortiz, M. (8 de junio de 2018). Defensa en profundidad aplicado a un entorno empresarial. <em>Revista Espacios</em>, 39 (42), 19.',
+      link: 'https://www.revistaespacios.com/a18v39n42/a18v39n42p19.pdf',
+    },
+    {
+      referencia:
+        'Rodriguez, L. (2014). <em>Planificación estratégica II: Diagrama de Gantt pasaje de grado de comisario a comisario inspector (PA) (PE) (PT)</em>. Docplayer.es',
+      link:
+        'https://docplayer.es/84386006-Planificacion-estrategica-ii-diagrama-de-gantt-pasaje-de-grado-de-comisario-a-comisario-inspector-pa-pe-pt.html',
     },
   ],
   creditos: [
@@ -140,10 +219,10 @@ export default {
           centro: 'Dirección General',
         },
         {
-          nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Responsable de Línea de Producción',
+          nombre: 'Liliana Victoria Morales Gualdrón',
+          cargo: 'Responsable Línea de Producción Distrito Capital',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información',
         },
       ],
     },
@@ -151,10 +230,48 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Joaquín Patiño Cerón',
+          cargo: 'Experto Temático',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Regional Cauca - Centro de Teleinformática y Producción Industrial',
+        },
+        {
+          nombre: 'Fabián Leonardo Correa Díaz',
+          cargo: 'Diseñador Instruccional',
+          centro: 'Regional Tolima - Centro agropecuario La Granja',
+        },
+        {
+          nombre: 'Andrés Felipe Velandia Espitia',
+          cargo: 'Revisor Metodológico y Pedagógico',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+        },
+        {
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Asesor Pedagógico',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: 'Gloria Lida Alzate Suarez',
+          cargo: 'Adecuador Instruccional',
+          centro:
+            'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información',
+        },
+        {
+          nombre: 'Alix Cecilia Chinchilla Rueda',
+          cargo: 'Metodología para la formación virtual',
+          centro:
+            'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información',
+        },
+        {
+          nombre: '',
+          cargo: '',
+          centro: '',
+        },
+        {
+          nombre: '',
+          cargo: '',
+          centro: '',
         },
       ],
     },
@@ -162,28 +279,34 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: '',
           cargo: 'Diseñador de Contenidos Digitales',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Luis Jesús Pérez Madariaga',
           cargo: 'Desarrollador Fullstack',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
+          nombre: '',
+          cargo: 'Animación y Producción audiovisual',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Actividad Didáctica',
+          nombre: '',
+          cargo: 'Animación y Producción audiovisual',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información',
+        },
+        {
+          nombre: '',
+          cargo: 'Animación y Producción audiovisual',
+          centro:
+            'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información',
         },
       ],
     },
@@ -191,22 +314,22 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Zuleidy María Ruiz Torres',
-          cargo: 'Validador de Recursos Educativos Digitales',
+          nombre: '',
+          cargo: '',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información',
         },
         {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador de Recursos Educativos Digitales',
+          nombre: '',
+          cargo: '',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información',
         },
         {
-          nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          nombre: '',
+          cargo: '',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Regional Distrito Capital - Centro de gestión de mercados, Logística y Tecnologías de la información',
         },
       ],
     },
