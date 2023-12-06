@@ -7,7 +7,7 @@
     .row.justify-content-center(data-aos="zoom-in-up")
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/sintesis.svg", alt="Imagen que resume los temas abordados dentro del componente formativo como son las técnicas de planificación, entrenamiento y concientización en seguridad y la defensa en seguridad.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
           .anexo__icono

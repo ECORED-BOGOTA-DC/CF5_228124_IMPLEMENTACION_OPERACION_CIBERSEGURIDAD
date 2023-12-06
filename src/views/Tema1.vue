@@ -19,28 +19,28 @@
             p.mt-4 La planificación traza las metas u objetivos en tiempos específicos, ya sean en el corto, mediano y largo plazo, en donde se establecen las actividades a realizar con los respectivos responsables, y los medios necesarios para el cumplimiento de las mismas.
           .col-lg-5
             figure.m-auto.col
-              img(src='@/assets/curso/tema1/1.png')
+              img(src='@/assets/curso/tema1/1.png' alt="Imagen decorativa")
         .row
           .col-lg-7.mb-4.mb-lg-0
             h5 Reconocimiento del entorno
             p.mt-4 Planificar implica, entre otras cosas, una #[strong "revisión de grandes volúmenes de información para anticipar e interpretar los cambios del ambiente. Un reconocimiento externo, tal vez revele problemas y preocupaciones que incidan en las actividades actuales o planeadas de la organización."] Robbins y Couter (2005).
           .col-lg-5
             figure.m-auto.col
-              img(src='@/assets/curso/tema1/2.png')
+              img(src='@/assets/curso/tema1/2.png' alt="Imagen decorativa")
         .row
           .col-lg-7.mb-4.mb-lg-0
             h5 FODA
             p.mt-4 El reconocimiento del entorno puede llevarse a cabo mediante herramientas como la Matriz FODA, que evalúa las Fortalezas, Oportunidades, Debilidades y Amenazas, o mediante el análisis de los aspectos políticos, económicos, sociales, tecnológicos, ecológicos y legales, conocidos como (Análisis PEST-EL).
           .col-lg-5
             figure.m-auto.col
-              img(src='@/assets/curso/tema1/3.png')
+              img(src='@/assets/curso/tema1/3.png' alt="Imagen decorativa")
         .row
           .col-lg-7.mb-4.mb-lg-0
             h5 Pronósticos
             p.mt-4 Los pronósticos hacen referencia a las #[strong "predicciones de resultados; su objetivo es dar a los directivos información que facilite la toma de decisiones. Cuánto más turbulento sea el entorno menos fiable será el pronóstico que se plantee”] Robbins y Couter (2005).
           .col-lg-5
             figure.m-auto.col
-              img(src='@/assets/curso/tema1/4.png')
+              img(src='@/assets/curso/tema1/4.png' alt="Imagen decorativa")
     
     Separador
 
@@ -110,7 +110,7 @@
       p(data-aos="fade-right") A continuación, se analizarán otras técnicas de planificación, teniendo en cuenta las necesidades y el contexto organizacional.
       figure.mt-4(data-aos="zoom-in")
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/pvouwaP3ycc" title="Planificación, necesidades y contexto organizacional" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 
 

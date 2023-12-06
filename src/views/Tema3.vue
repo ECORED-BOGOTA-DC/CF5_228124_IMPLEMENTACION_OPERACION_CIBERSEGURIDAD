@@ -33,7 +33,7 @@
           p.mt-4 #[strong "Se refiere a un enfoque de seguridad de la información en el que una serie de mecanismos y controles de seguridad se colocan cuidadosamente en una red de computadoras para proteger la confidencialidad, integridad y disponibilidad de la red y los datos que contienen. Si bien ninguna mitigación individual puede detener todas las amenazas cibernéticas, juntas proporcionan mitigaciones contra una amplia variedad de amenazas, al tiempo que incorporan redundancia en caso de que un mecanismo falle. Cuando tiene éxito, este enfoque refuerza significativamente la seguridad de la red contra muchos vectores de ataque".] CIS (2021).
       .col-lg-4(data-aos="fade-left")
         figure.m-auto.col-7.col-md-7.col-lg-12
-          img(src="@/assets/curso/tema3/2.png")
+          img(src="@/assets/curso/tema3/2.png" alt="Imagen decorativa")
     
     p.mt-5(data-aos="fade-right") Una estrategia eficaz de defensa en profundidad (DID), incluye estas (y otras) mejores prácticas, herramientas y políticas de seguridad:
 
@@ -42,49 +42,49 @@
         .row(titulo="1")
           .col-md-6.mb-4.mb-md-0.col-lg-4
             figure
-              img(src='@/assets/curso/tema3/3.png')
+              img(src='@/assets/curso/tema3/3.png' alt="Imagen decorativa")
           .col-md-6.col-lg-8
             h5 Descubrimiento y gestión de activos
             p.mt-4 "Identificar los dispositivos y activos (incluyendo los datos) que deben ser protegidos y monitorearlos. No es posible proteger un activo si no se conoce su existencia, por ello es indispensable tener visibilidad de todos los activos que pertenecen a la organización y que tienen acceso a los recursos de esta. Esto ayudará a identificar la superficie de ataque que se debe proteger y cómo se debe proteger." Raggi (2021).
         .row(titulo="2")
           .col-md-6.mb-4.mb-md-0.col-lg-4
             figure
-              img(src='@/assets/curso/tema3/4.png')
+              img(src='@/assets/curso/tema3/4.png' alt="Imagen decorativa")
           .col-md-6.col-lg-8
             h5 Protocolo y servicios
             p.mt-4 En la apropiación de la tecnología se debe aplicar protocolos y servicios seguros tales como SSL/TLS, HTTPS, SSH, SFTP, DoH/DNSSEC, SMTP, POP3, entre otros.
         .row(titulo="3")
           .col-md-6.mb-4.mb-md-0.col-lg-4
             figure
-              img(src='@/assets/curso/tema3/5.png')
+              img(src='@/assets/curso/tema3/5.png' alt="Imagen decorativa")
           .col-md-6.col-lg-8
             h5 Sistemas de correlación de eventos o #[em Logs], Security Information and Event Management – SIEM
             p.mt-4 Los SIEM son herramientas o soluciones que se enfocan en gestionar los eventos, con capacidades para detectar de manera centralizada los #[em logs] o registros de los diversos dispositivos en la red, esto ayuda a responder y neutralizar ciber amenazas. También permite tener una visión global de la seguridad de las tecnologías.
         .row(titulo="4")
           .col-md-6.mb-4.mb-md-0.col-lg-4
             figure
-              img(src='@/assets/curso/tema3/6.png')
+              img(src='@/assets/curso/tema3/6.png' alt="Imagen decorativa")
           .col-md-6.col-lg-8
             h5 #[em Firewalls]
             p.mt-4 Los cortafuegos son dispositivos de #[em software] o #[em hardware] que controlan el tráfico de la red a través del acceso o niegan políticas o reglas. Estas reglas incluyen direcciones IP, direcciones MAC y puertos negros o de listas blancas. También hay #[em firewalls] específicos de aplicaciones, como #[em firewalls] de aplicaciones web (WAF) y pasarelas de correo electrónico seguras que se enfocan en detectar actividad maliciosa, dirigida a una aplicación en particular.
         .row(titulo="5")
           .col-md-6.mb-4.mb-md-0.col-lg-4
             figure
-              img(src='@/assets/curso/tema3/7.png')
+              img(src='@/assets/curso/tema3/7.png' alt="Imagen decorativa")
           .col-md-6.col-lg-8
             h5 Sistemas IDS/IPS
             p.mt-4 Sistemas de detección o prevención de intrusiones (IDS / IPS), un IDS envía una alerta cuando se detecta tráfico de red malicioso, mientras que un IPS intenta prevenir y alertar sobre la actividad maliciosa identificada en la red o en la estación de trabajo de un usuario. Estas soluciones basan el reconocimiento de ataques en firmas de actividad de red maliciosa conocida.
         .row(titulo="6")
           .col-md-6.mb-4.mb-md-0.col-lg-4
             figure
-              img(src='@/assets/curso/tema3/8.png')
+              img(src='@/assets/curso/tema3/8.png' alt="Imagen decorativa")
           .col-md-6.col-lg-8
             h5 Endpoint Detection and Response – EDR
             p.mt-4 El #[em software] o los agentes de EDR residen en el sistema cliente (por ejemplo, la computadora portátil o el teléfono móvil de un usuario) y brindan protección antivirus, alertas, detección, análisis, clasificación de amenazas e inteligencia de amenazas. Estas soluciones se ejecutan en conjuntos de reglas, es decir, firmas o reglas de #[em firewall] o heurísticas, es decir, detección de comportamientos anómalos o maliciosos.
         .row(titulo="7")
           .col-md-6.mb-4.mb-md-0.col-lg-4
             figure
-              img(src='@/assets/curso/tema3/9.png')
+              img(src='@/assets/curso/tema3/9.png' alt="Imagen decorativa")
           .col-md-6.col-lg-8
             h5 Segmentación de Red
             p.mt-4 Es la práctica de dividir una red en múltiples subredes diseñadas en torno a las necesidades comerciales. Por ejemplo, esto a menudo incluye tener subredes para ejecutivos, finanzas, operaciones y recursos humanos. Dependiendo del nivel de seguridad requerido, es posible que estas redes no puedan comunicarse directamente. La segmentación, a menudo, se logra mediante el uso de conmutadores de red o reglas de #[em firewall].
@@ -94,19 +94,19 @@
       .col-lg.mb-4.mb-lg-0.col-md-8(data-aos="zoom-in-up")
         .h-100.p-4(style="background-color:#FFB206;border-radius:10px;")
           figure
-            img(src="@/assets/curso/tema3/10.svg" style="max-width:80px;")
+            img(src="@/assets/curso/tema3/10.svg" style="max-width:80px;" alt="Imagen decorativa")
           h5.mt-4 Principio de mínimo privilegio
           p.mt-3 Se requieren políticas y controles técnicos para asignar solo a los usuarios, sistemas y procesos de acceso a los recursos (redes, sistemas y archivos) que son absolutamente necesarios para realizar su función asignada.
       .col-lg.mb-4.mb-lg-0.col-md-8(data-aos="zoom-in-up")
         .h-100.p-4.text-white(style="background-color:#8F52F5;border-radius:10px;")
           figure
-            img(src="@/assets/curso/tema3/11.svg" style="max-width:80px;")
+            img(src="@/assets/curso/tema3/11.svg" style="max-width:80px;" alt="Imagen decorativa")
           h5.mt-4 Contraseñas seguras
           p.mt-3 Son un mecanismo de autenticación fundamental en la seguridad de la información. La guía moderna de contraseñas implica el uso de la autenticación multifactor para cualquier cuenta de valor, el uso de una frase con varias palabras y la no reutilización de contraseñas.
       .col-lg.mb-4.mb-lg-0.col-md-8(data-aos="zoom-in-up")
         .h-100.p-4.text-white(style="background-color:#8F52F5;border-radius:10px;")
           figure
-            img(src="@/assets/curso/tema3/12.svg" style="max-width:80px;")
+            img(src="@/assets/curso/tema3/12.svg" style="max-width:80px;" alt="Imagen decorativa")
           h5.mt-4 Gestión de parches o #[em patch management]
           p.mt-3 Es el proceso de aplicar actualizaciones a un sistema operativo, #[em software], #[em hardware] o complemento. A menudo, estos parches abordan las vulnerabilidades identificadas que podrían permitir a los CTA el acceso no autorizado a los sistemas o redes de información. CIS (2021).
     
@@ -124,7 +124,7 @@
     ImagenInfografica.color-acento-contenido.mt-5(data-aos="zoom-in-up")
       template(v-slot:imagen)
         figure
-          img(src='@/assets/curso/tema3/13.svg')
+          img(src='@/assets/curso/tema3/13.svg' alt="Imagen que ilustra la representación del método de defensa en profundidad y por capas que esta explicado también luego de la imagen.")
       .tarjeta.color-acento-botones.p-3(x="7%" y="97%" numero="+" style="background-color:#FFF7E5;box-shadow:0px 0px 15px rgba(0,0,0,.15);")
         p.mb-0.text-center(style="color:inherit;") Programa de aprendizaje para los usuarios.
       .tarjeta.color-acento-botones.p-3(x="21.5%" y="97%" numero="+" style="background-color:#FFF7E5;box-shadow:0px 0px 15px rgba(0,0,0,.15);")
@@ -149,7 +149,7 @@
         ImagenInfografica.color-acento-contenido.mt-5(data-aos="zoom-in-up")
           template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/tema3/14.svg')
+              img(src='@/assets/curso/tema3/14.svg' alt="Representa infografía, que está descrita posterior a la imagen.")
           .tarjeta.color-acento-botones.p-3(x="50%" y="12.5%" numero="+" style="background-color:#FFB206;box-shadow:0px 0px 15px rgba(0,0,0,.2);")
             p.mb-0.text-center.fw-bold(style="color:inherit;") Datos, usuarios y equipos
             p.mb-0.mt-2.text-center(style="color:inherit;") La seguridad de usuarios y equipos es crítica, ya que son vulnerables a ataques de ingeniería social y #[em(style="color:inherit;") malware]. Se requiere una combinación de controles técnicos y capacitación para proteger los datos y los equipos, considerando clasificación, almacenamiento y cifrado. Medidas como antimalware, Data Loss Prevention - DLP, cifrado y gestión de comunicaciones son esenciales.
@@ -173,7 +173,7 @@
             p.mb-0.mt-2.text-center(style="color:inherit;") En esta capa, se establecen pautas para la gestión, operación y concienciación de la ciberseguridad, incluyendo seguridad física, control de acceso, gestión de redes y cumplimiento legal, entre otros aspectos clave de la seguridad digital.
     
     figure.mt-5(data-aos="zoom-in-up")
-      img(src="@/assets/curso/tema3/15.svg")
+      img(src="@/assets/curso/tema3/15.svg" alt="Imagen decorativa")
   
     Separador
 
@@ -183,7 +183,7 @@
     .row
       .col-auto.d-none.d-md-block(data-aos="fade-right" style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema2/1.svg")
+          img(src="@/assets/curso/tema2/1.svg" alt="Imagen decorativa")
       .col(data-aos="fade-left" style="place-self:center;")
         p La ciberseguridad es el resultado de los procesos ejecutados por las personas haciendo uso de las tecnologías y en defensa en profundidad estos tres elementos (personas, procesos y tecnología) son claves para que la estrategia de defensa en profundidad cumpla con sus objetivos.
         p.mb-0.mt-4 A continuación, podrá revisar algunas características clave de la defensa en profundidad en ciberseguridad. Es fundamental comprender estos conceptos para fortalecer la protección de sistemas y datos ante las crecientes amenazas cibernéticas.
@@ -203,7 +203,7 @@
             p.mb-0(style="color:inherit;") La comunicación es un elemento clave para informar sobre el estado de la ciberseguridad en cada fase o capa de la defensa. Así, los equipos y responsables de la infraestructura y controles de la red podrán tomar acciones respectivas de defensa y respuesta a posibles ataques de ciberseguridad.
       .col-lg-4(data-aos="fade-left")
         figure.m-auto.col-7.col-md-7.col-lg-12
-          img(src="@/assets/curso/tema3/16.png")
+          img(src="@/assets/curso/tema3/16.png" alt="Imagen decorativa")
 
 
 

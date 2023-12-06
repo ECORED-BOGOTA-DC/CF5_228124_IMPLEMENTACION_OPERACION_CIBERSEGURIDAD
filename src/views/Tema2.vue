@@ -10,7 +10,7 @@
     .row
       .col-auto.d-none.d-md-block(data-aos="fade-right" style="place-self:center;")
         figure
-          img(src="@/assets/curso/tema2/1.svg")
+          img(src="@/assets/curso/tema2/1.svg" alt="Imagen decorativa")
       .col(data-aos="fade-left" style="place-self:center;")
         p La ciberseguridad se define como la capacidad de minimizar el nivel de riesgo al que están expuestos los sistemas informáticos y sus usuarios, ante amenazas de naturaleza cibernética o digital.
         p.mb-0.mt-4 Algunos elementos fundantes del entrenamiento y la concienciación en ciberseguridad, que se deben tener presentes son:
@@ -19,19 +19,19 @@
       .col-lg.mb-4.mb-lg-0.col-md-9
         .h-100.p-4.p-lg-5.text-white.cont_tarjeta1(style="background: linear-gradient(0deg, rgba(80,12,117,1) 70%, rgba(255,255,255,1) 70%);" data-aos="zoom-in-up")
           figure.col-lg-10.col-md-7.col-7.m-auto
-            img(src="@/assets/curso/tema2/2.svg")
+            img(src="@/assets/curso/tema2/2.svg" alt="Imagen decorativa")
           h5.mt-5 Ciber-resiliencia
           p.mt-4 La ciberseguridad brinda a los gobiernos y a las organizaciones la ciber-resiliencia como la capacidad de resistir, proteger y defender los sistemas de ciberataques.
       .col-lg.mb-4.mb-lg-0.col-md-9
         .h-100.p-4.p-lg-5.text-white.cont_tarjeta1(style="background: linear-gradient(0deg, rgba(80,12,117,1) 70%, rgba(255,255,255,1) 70%);" data-aos="zoom-in-up")
           figure.col-lg-10.col-md-7.col-7.m-auto
-            img(src="@/assets/curso/tema2/3.svg")
+            img(src="@/assets/curso/tema2/3.svg" alt="Imagen decorativa")
           h5.mt-5 Personal y recursos
           p.mt-4 Para poder apropiar la ciberseguridad en las organizaciones es importante que se cuente con el personal capacitado y los recursos necesarios.
       .col-lg.mb-4.mb-lg-0.col-md-9
         .h-100.p-4.p-lg-5.text-white.cont_tarjeta1(style="background: linear-gradient(0deg, rgba(80,12,117,1) 70%, rgba(255,255,255,1) 70%);" data-aos="zoom-in-up")
           figure.col-lg-10.col-md-7.col-7.m-auto
-            img(src="@/assets/curso/tema2/4.svg")
+            img(src="@/assets/curso/tema2/4.svg" alt="Imagen decorativa")
           h5.mt-5 Formación permanente
           p.mt-4 Apropiar la ciberseguridad en la organizaciones implica mantener la formación y concienciación permanentes, en ciberseguridad, como estrategia para el cumplimiento y mejora continua.
     
@@ -46,7 +46,7 @@
         p.mt-4 A continuación se presenta información como un excelente punto de partida para aprender sobre los conceptos esenciales del entrenamiento y la concienciación en ciberseguridad. Tómese el tiempo para leer detenidamente y tomar notas para que pueda mejorar su comprensión de este importante tema.
       .col-lg-4(data-aos="fade-left" style="place-self:center;")
         figure.m-auto.col-7.col-md-8.col-lg-12
-          img(src="@/assets/curso/tema2/5.png")
+          img(src="@/assets/curso/tema2/5.png" alt="Imagen decorativa")
     
     AcordionA.mt-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
       .row.col-lg-11.m-auto(titulo="Activo de Información")
@@ -54,51 +54,51 @@
           p "Es cualquier información o sistema relacionado con el tratamiento de la misma que tenga valor para la organización, pueden ser procesos de negocio, datos, aplicaciones, equipos informáticos, personal, soportes de información, redes, equipamiento auxiliar o instalaciones. Es susceptible de ser atacado deliberada o accidentalmente con consecuencias para la organización “. Incibe (2021).
         .col-md-6.col-lg-4
           figure.col-7.m-auto
-            img(src='@/assets/curso/tema2/6.png')
+            img(src='@/assets/curso/tema2/6.png' alt="Imagen decorativa")
       .row.col-lg-11.m-auto(titulo="Vulnerabilidad y Amenaza")
         .col-md-6.mb-4.mb-md-0.col-lg-8
           p La vulnerabilidad es una "Debilidad o fallo de un sistema que puede ser aprovechado con fines maliciosos".
           p.mt-3 La amenaza, es aquella #[strong ]"Circunstancia desfavorable que puede ocurrir y que cuando sucede tiene consecuencias negativas sobre los activos provocando su indisponibilidad, funcionamiento incorrecto o pérdida de valor. Si una amenaza acontece, a la vez que existe una vulnerabilidad aprovechando su existencia, puede derivar en un incidente de seguridad."] Incibe (2021).
         .col-md-6.col-lg-4
           figure.col-7.m-auto
-            img(src='@/assets/curso/tema2/7.png')
+            img(src='@/assets/curso/tema2/7.png' alt="Imagen decorativa")
       .row.col-lg-11.m-auto(titulo="Amenaza avanzada persistente (APT)")
         .col-md-6.mb-4.mb-md-0.col-lg-8
           p "También conocido como APT, acrónimo en inglés de Advanced Persistent Threat, consiste en un tipo de ataque informático que se caracteriza por realizarse con sigilo, permaneciendo activo y oculto durante mucho tiempo, utilizando diferentes formas de ataque. Suelen estar patrocinados por compañías, mafias o un estado “. Incibe (2021)
         .col-md-6.col-lg-4
           figure.col-7.m-auto
-            img(src='@/assets/curso/tema2/8.png')
+            img(src='@/assets/curso/tema2/8.png' alt="Imagen decorativa")
       .row.col-lg-11.m-auto(titulo="Ciberataque")
         .col-md-6.mb-4.mb-md-0.col-lg-8
           p "Intento deliberado de un ciberdelincuente de obtener acceso a un sistema informático sin autorización, sirviéndose de diferentes técnicas y vulnerabilidades para la realización de actividades con fines maliciosos, como el robo de información, extorsión del propietario o simplemente daños al sistema." Incibe (2021)
         .col-md-6.col-lg-4
           figure.col-7.m-auto
-            img(src='@/assets/curso/tema2/9.png')
+            img(src='@/assets/curso/tema2/9.png' alt="Imagen decorativa")
       .row.col-lg-11.m-auto(titulo="Ciberdelincuente")
         .col-md-6.mb-4.mb-md-0.col-lg-8
           p "Persona que realiza actividades delictivas en la red contra personas o sistemas informáticos, pudiendo provocar daños económicos o reputacionales mediante robo, filtrado de información, deterioro de #[em software] o #[em hardware], fraude y extorsión. Casi siempre están orientados a la obtención de fines económicos." Incibe (2021)
         .col-md-6.col-lg-4
           figure.col-7.m-auto
-            img(src='@/assets/curso/tema2/10.png')
+            img(src='@/assets/curso/tema2/10.png' alt="Imagen decorativa")
       .row.col-lg-11.m-auto(titulo="<em>Malware</em>")
         .col-md-6.mb-4.mb-md-0.col-lg-8
           p "Es un tipo de #[em software] que tiene como objetivo dañar o infiltrarse sin el consentimiento de su propietario en un sistema de información. Palabra que nace de la unión de los términos en inglés de #[em software] malintencionado: #[em malicious software]. Dentro de esta definición tiene cabida un amplio elenco de programas maliciosos: virus, gusanos, troyanos, #[em backdoors, spyware], etc. La nota común a todos estos programas es su carácter dañino o lesivo." Incibe (2021)
         .col-md-6.col-lg-4
           figure.col-7.m-auto
-            img(src='@/assets/curso/tema2/11.png')
+            img(src='@/assets/curso/tema2/11.png' alt="Imagen decorativa")
       .row.col-lg-11.m-auto(titulo="<em>Phishing</em>")
         .col-md-6.mb-4.mb-md-0.col-lg-8
           p "Técnica o tipo de ataque en el que alguien suplanta a una entidad/servicio mediante un correo electrónico o mensaje instantáneo para conseguir las credenciales o información de la tarjeta de crédito de un usuario. Ese correo/mensaje suele tener un enlace (o fichero que contiene ese enlace) a un sitio web que suplanta al legítimo y que usan para engañarlo.” Incibe (2021)
         .col-md-6.col-lg-4
           figure.col-7.m-auto
-            img(src='@/assets/curso/tema2/12.png')
+            img(src='@/assets/curso/tema2/12.png' alt="Imagen decorativa")
     
     .cont_2_1.mt-5.pt-4.pt-lg-5.pb-4.pt-lg-5
       .col-xl-10.m-auto
         .row
           .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
             figure.col-6.col-md-7.col-lg-12.m-auto
-              img(src="@/assets/curso/tema2/13.svg")
+              img(src="@/assets/curso/tema2/13.svg" alt="Imagen decorativa")
           .col-lg-8(data-aos="fade-left")
             .titulo-segundo.titulo_segundo_1
               h3 Glosario de ciberseguridad
@@ -117,7 +117,7 @@
         p.mt-4 A continuación, se pueden observar los aspectos en los que se enfoca el entrenamiento, en el marco de la aplicación de estrategias de ciberseguridad:
       .col-lg-4(data-aos="fade-left" style="place-self:center;")
         figure.m-auto.col-7.col-md-8.col-lg-12
-          img(src="@/assets/curso/tema2/14.png")
+          img(src="@/assets/curso/tema2/14.png" alt="Imagen decorativa")
 
     TabsB.color-secundario.mt-5
       .py-4.py-md-5(titulo="Gestión" :icono="require('@/assets/curso/tema2/15.svg')")
@@ -126,35 +126,35 @@
             p Busca mejorar las habilidades y conocimientos para la gestión de la ciberseguridad por medio del entrenamiento en la adopción de estándares y marcos de referencia de ciberseguridad. Se enfoca en fortalecer el liderazgo de la ciberseguridad.
           .col-lg-4
             figure.m-auto.col-7.col-md-7.col-lg-12
-              img(src='@/assets/curso/tema2/16.png')
+              img(src='@/assets/curso/tema2/16.png' alt="Imagen decorativa")
       .py-4.py-md-5(titulo="Operativo" :icono="require('@/assets/curso/tema2/17.svg')")
         .row.col-xl-11.m-auto
           .col-lg-8.mb-4.mb-lg-0
             p Fortalecimiento de los conocimientos teórico-prácticos con un enfoque técnico que permita mejorar el desempeño operativo de herramientas, #[em software] o #[em hardware], pudiendo mejorar las configuraciones para el rendimiento y eficacia de las mismas. En este sentido, el entrenamiento operativo permite conocer las mejores prácticas técnicas para aplicar controles de ciberseguridad.
           .col-lg-4
             figure.m-auto.col-7.col-md-7.col-lg-12
-              img(src='@/assets/curso/tema2/18.png')
+              img(src='@/assets/curso/tema2/18.png' alt="Imagen decorativa")
       .py-4.py-md-5(titulo="Usuarios" :icono="require('@/assets/curso/tema2/19.svg')")
         .row.col-xl-11.m-auto
           .col-lg-8.mb-4.mb-lg-0
             p Así mismo, el entrenamiento operativo puede estar enfocado a los usuarios para que tengan el conocimiento práctico y las habilidades para detectar y reportar posibles vulnerabilidades, eventos e incidentes de seguridad digital.
           .col-lg-4
             figure.m-auto.col-7.col-md-7.col-lg-12
-              img(src='@/assets/curso/tema2/20.png')
+              img(src='@/assets/curso/tema2/20.png' alt="Imagen decorativa")
       .py-4.py-md-5(titulo="Entes facilitadores" :icono="require('@/assets/curso/tema2/21.svg')")
         .row.col-xl-11.m-auto
           .col-lg-8.mb-4.mb-lg-0
             p El entrenamiento puede darse por medio de terceros especializados en la materia y con la acreditación respectiva, tales como instituciones de educación superior profesional, tecnológica y técnica, institutos de educación no formal y profesionales capacitados y certificados.
           .col-lg-4
             figure.m-auto.col-7.col-md-7.col-lg-12
-              img(src='@/assets/curso/tema2/22.png')
+              img(src='@/assets/curso/tema2/22.png' alt="Imagen decorativa")
       .py-4.py-md-5(titulo="Forma o modalidad" :icono="require('@/assets/curso/tema2/23.svg')")
         .row.col-xl-11.m-auto
           .col-lg-8.mb-4.mb-lg-0
             p El entrenamiento puede realizarse en forma de cursos, certificaciones, talleres, asesorías y consultorías.
           .col-lg-4
             figure.m-auto.col-7.col-md-7.col-lg-12
-              img(src='@/assets/curso/tema2/24.png')
+              img(src='@/assets/curso/tema2/24.png' alt="Imagen decorativa")
     
     .col-xl-8.mt-5.m-auto
       .p-4.cajon.color-acento-contenido(style="background-color:#FFE8B3;" data-aos="flip-up")
@@ -190,7 +190,7 @@
     .row.mt-5
       .col-xl-2.col-lg-3.mb-4.mb-lg-0(data-aos="fade-right" style="place-self:center;")
         figure.m-auto.col-4.col-md-5.col-lg-12
-          img(src="@/assets/curso/tema2/26.png")
+          img(src="@/assets/curso/tema2/26.png" alt="Imagen decorativa")
       .col-xl-10.col-lg-9(data-aos="fade-left" style="place-self:center;")
         h5 Los dueños del negocio
         p.mt-4 Los dueños de negocio están representados por los gerentes, presidentes y todos los altos cargos de una organización con poder de decisión e influencia sobre todas o ciertas áreas de la misma.
@@ -212,7 +212,7 @@
     .row.mt-5
       .col-xl-2.col-lg-3.mb-4.mb-lg-0(data-aos="fade-right" style="place-self:center;")
         figure.m-auto.col-4.col-md-5.col-lg-12
-          img(src="@/assets/curso/tema2/27.png")
+          img(src="@/assets/curso/tema2/27.png" alt="Imagen decorativa")
       .col-xl-10.col-lg-9(data-aos="fade-left" style="place-self:center;")
         h5 Operadores técnicos
         p.mt-4 Se trata del grupo o equipo de técnicos, tecnólogos e ingenieros que se encargan de desarrollar, implementar y operar o mantener los sistemas de información. 
@@ -224,7 +224,7 @@
     .row.mt-5
       .col-xl-2.col-lg-3.mb-4.mb-lg-0(data-aos="fade-right" style="place-self:center;")
         figure.m-auto.col-4.col-md-5.col-lg-12
-          img(src="@/assets/curso/tema2/28.png")
+          img(src="@/assets/curso/tema2/28.png" alt="Imagen decorativa")
       .col-xl-10.col-lg-9(data-aos="fade-left" style="place-self:center;")
         h5 Usuarios
         p.mt-4 Los usuarios son el elemento con mayor susceptibilidad de ser atacados por los ciberdelincuentes, por lo tanto, deben recibir una atención especial en la concienciación de ciberseguridad, pues estos tienen accesos y privilegios para la manipulación de información en los sistemas de información, dentro de una organización. 
@@ -235,7 +235,7 @@
               .row
                 .col-auto
                   figure
-                    img(src="@/assets/curso/tema2/29.svg")
+                    img(src="@/assets/curso/tema2/29.svg" alt="Imagen decorativa")
                 .col
                   h5 Lograr vías de concienciación
                   p.mt-4.mb-0 Es importante que se apliquen estrategias de concienciación de usuarios por medio de charlas, cursos, talleres prácticos, boletines, entre otras estrategias de comunicación para la concienciación.
@@ -244,7 +244,7 @@
               .row
                 .col-auto
                   figure
-                    img(src="@/assets/curso/tema2/30.svg")
+                    img(src="@/assets/curso/tema2/30.svg" alt="Imagen decorativa")
                 .col
                   h5 Fortalecer el conocimiento en las personas
                   p.mt-4.mb-0 En ciberseguridad se dice que uno de los eslabones más débiles de la cadena son las personas, haciendo alusión a que se pueden tener los mejores controles de seguridad a nivel técnico, pero un error humano por falta de conocimientos o concienciación, puede hacer vulnerable a los sistemas más robustos y protegidos.
@@ -269,7 +269,7 @@
           p.text-small(numero="7" titulo="Proceso continuo") Otra característica fundamental es que tanto para la concienciación y el entrenamiento en ciberseguridad, se debe mantener como un proceso continuo, debido a los constantes cambios en los factores tecnológicos, los procesos y del personal dentro de la organización.
       .col-lg-4(data-aos="fade-left")
         figure.m-auto.col-7.col-md-6.col-lg-12
-          img(src="@/assets/curso/tema2/31.svg")
+          img(src="@/assets/curso/tema2/31.svg" alt="Imagen decorativa")
 
 
 
