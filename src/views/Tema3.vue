@@ -17,14 +17,14 @@
           |
           br
           br
-          | #[strong Este concepto, al igual que muchos otros, tiene su origen etimológico en el mundo militar siendo, la defensa en profundidad, una estrategia que pretende dilatar y ralentizar el avance de un enemigo en lugar de pensar sólo en un único método para detenerlo de forma absoluta. Esta defensa en profundidad puede retrasar, lo suficiente, el avance de un ejército enemigo haciendo que pierda fuerza e impulso, y proporcionado, además, valioso tiempo adicional para elaborar una respuesta más efectiva.]
+          | #[strong Este concepto, al igual que muchos otros, tiene su origen etimológico en el mundo militar siendo, la defensa en profundidad, una estrategia que pretende dilatar y ralentizar el avance de un enemigo en lugar de pensar solo en un único método para detenerlo de forma absoluta. Esta defensa en profundidad puede retrasar, lo suficiente, el avance de un ejército enemigo, haciendo que pierda fuerza e impulso, y proporcionado, además, valioso tiempo adicional para elaborar una respuesta más efectiva.]
     
     p.mt-5(data-aos="fade-right") La defensa en profundidad permite minimizar la probabilidad de ocurrencia de riesgos, causados por ciberataques; permite la apropiación de controles y buenas prácticas de ciberseguridad para el aseguramiento de la infraestructura tecnológica.
 
     Separador
 
     .titulo-segundo(data-aos="zoom-in-right")
-      h2#t_3_1 3.1. Conceptos de Defensa en Profundidad DID
+      h2#t_3_1 3.1 Conceptos de Defensa en Profundidad DID
     
     .row.mt-5
       .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
@@ -58,15 +58,15 @@
             figure
               img(src='@/assets/curso/tema3/5.png')
           .col-md-6.col-lg-8
-            h5 Sistemas de correlación de eventos o Logs, Security Information and Event Management – SIEM
-            p.mt-4 Los SIEM son herramientas o soluciones que se enfocan en gestionar los eventos, con capacidades para detectar de manera centralizada los logs o registros de los diversos dispositivos en la red, esto ayuda a responder y neutralizar ciber amenazas. También permite tener una visión global de la seguridad de las tecnologías.
+            h5 Sistemas de correlación de eventos o #[em Logs], Security Information and Event Management – SIEM
+            p.mt-4 Los SIEM son herramientas o soluciones que se enfocan en gestionar los eventos, con capacidades para detectar de manera centralizada los #[em logs] o registros de los diversos dispositivos en la red, esto ayuda a responder y neutralizar ciber amenazas. También permite tener una visión global de la seguridad de las tecnologías.
         .row(titulo="4")
           .col-md-6.mb-4.mb-md-0.col-lg-4
             figure
               img(src='@/assets/curso/tema3/6.png')
           .col-md-6.col-lg-8
-            h5 Firewalls
-            p.mt-4 Los cortafuegos son dispositivos de software o hardware que controlan el tráfico de la red a través del acceso o niegan políticas o reglas. Estas reglas incluyen direcciones IP, direcciones MAC y puertos negros o de listas blancas. También hay firewalls específicos de aplicaciones, como firewalls de aplicaciones web (WAF) y pasarelas de correo electrónico seguras que se enfocan en detectar actividad maliciosa, dirigida a una aplicación en particular.
+            h5 #[em Firewalls]
+            p.mt-4 Los cortafuegos son dispositivos de #[em software] o #[em hardware] que controlan el tráfico de la red a través del acceso o niegan políticas o reglas. Estas reglas incluyen direcciones IP, direcciones MAC y puertos negros o de listas blancas. También hay #[em firewalls] específicos de aplicaciones, como #[em firewalls] de aplicaciones web (WAF) y pasarelas de correo electrónico seguras que se enfocan en detectar actividad maliciosa, dirigida a una aplicación en particular.
         .row(titulo="5")
           .col-md-6.mb-4.mb-md-0.col-lg-4
             figure
@@ -80,14 +80,14 @@
               img(src='@/assets/curso/tema3/8.png')
           .col-md-6.col-lg-8
             h5 Endpoint Detection and Response – EDR
-            p.mt-4 El software o los agentes de EDR residen en el sistema cliente (por ejemplo, la computadora portátil o el teléfono móvil de un usuario) y brindan protección antivirus, alertas, detección, análisis, clasificación de amenazas e inteligencia de amenazas. Estas soluciones se ejecutan en conjuntos de reglas, es decir, firmas o reglas de firewall o heurísticas, es decir, detección de comportamientos anómalos o maliciosos.
+            p.mt-4 El #[em software] o los agentes de EDR residen en el sistema cliente (por ejemplo, la computadora portátil o el teléfono móvil de un usuario) y brindan protección antivirus, alertas, detección, análisis, clasificación de amenazas e inteligencia de amenazas. Estas soluciones se ejecutan en conjuntos de reglas, es decir, firmas o reglas de #[em firewall] o heurísticas, es decir, detección de comportamientos anómalos o maliciosos.
         .row(titulo="7")
           .col-md-6.mb-4.mb-md-0.col-lg-4
             figure
               img(src='@/assets/curso/tema3/9.png')
           .col-md-6.col-lg-8
             h5 Segmentación de Red
-            p.mt-4 Es la práctica de dividir una red en múltiples subredes diseñadas en torno a las necesidades comerciales. Por ejemplo, esto a menudo incluye tener subredes para ejecutivos, finanzas, operaciones y recursos humanos. Dependiendo del nivel de seguridad requerido, es posible que estas redes no puedan comunicarse directamente. La segmentación, a menudo, se logra mediante el uso de conmutadores de red o reglas de firewall.
+            p.mt-4 Es la práctica de dividir una red en múltiples subredes diseñadas en torno a las necesidades comerciales. Por ejemplo, esto a menudo incluye tener subredes para ejecutivos, finanzas, operaciones y recursos humanos. Dependiendo del nivel de seguridad requerido, es posible que estas redes no puedan comunicarse directamente. La segmentación, a menudo, se logra mediante el uso de conmutadores de red o reglas de #[em firewall].
     
     p.mt-5(data-aos="fade-right") En la era digital, donde la información es un activo invaluable, la seguridad cobra una relevancia sin precedentes. Para salvaguardar datos sensibles y sistemas cruciales, tres principios esenciales han surgido como pilares de la ciberseguridad moderna:
     .row.mt-5.justify-content-center
@@ -107,13 +107,13 @@
         .h-100.p-4.text-white(style="background-color:#8F52F5;border-radius:10px;")
           figure
             img(src="@/assets/curso/tema3/12.svg" style="max-width:80px;")
-          h5.mt-4 Gestión de parches o Patch Management
-          p.mt-3 Es el proceso de aplicar actualizaciones a un sistema operativo, software, hardware o complemento. A menudo, estos parches abordan las vulnerabilidades identificadas que podrían permitir a los CTA el acceso no autorizado a los sistemas o redes de información. CIS (2021).
+          h5.mt-4 Gestión de parches o #[em patch management]
+          p.mt-3 Es el proceso de aplicar actualizaciones a un sistema operativo, #[em software], #[em hardware] o complemento. A menudo, estos parches abordan las vulnerabilidades identificadas que podrían permitir a los CTA el acceso no autorizado a los sistemas o redes de información. CIS (2021).
     
     Separador
 
     .titulo-segundo(data-aos="zoom-in-right")
-      h2#t_3_2 3.2. Capas de la defensa en profundidad
+      h2#t_3_2 3.2 Capas de la defensa en profundidad
     
     p(data-aos="fade-right") La defensa en profundidad aborda la ciberseguridad en capas: en cada capa se aplican controles de seguridad determinados para abarcar todos los aspectos necesarios de proteger, de manera particular y adecuada.
     p.mt-4(Data-aos="fade-left") Las capas se pueden representar de distintas maneras y las organizaciones pueden adoptar esta estrategia de ciberseguridad, de acuerdo con su contexto, sus recursos y sus propias necesidades de ciberseguridad.
@@ -152,16 +152,16 @@
               img(src='@/assets/curso/tema3/14.svg')
           .tarjeta.color-acento-botones.p-3(x="50%" y="12.5%" numero="+" style="background-color:#FFB206;box-shadow:0px 0px 15px rgba(0,0,0,.2);")
             p.mb-0.text-center.fw-bold(style="color:inherit;") Datos, usuarios y equipos
-            p.mb-0.mt-2.text-center(style="color:inherit;") La seguridad de usuarios y equipos es crítica, ya que son vulnerables a ataques de ingeniería social y malware. Se requiere una combinación de controles técnicos y capacitación para proteger los datos y los equipos, considerando clasificación, almacenamiento y cifrado. Medidas como antimalware, Data Loss Prevention - DLP, cifrado y gestión de comunicaciones son esenciales.
+            p.mb-0.mt-2.text-center(style="color:inherit;") La seguridad de usuarios y equipos es crítica, ya que son vulnerables a ataques de ingeniería social y #[em(style="color:inherit;") malware]. Se requiere una combinación de controles técnicos y capacitación para proteger los datos y los equipos, considerando clasificación, almacenamiento y cifrado. Medidas como antimalware, Data Loss Prevention - DLP, cifrado y gestión de comunicaciones son esenciales.
           .tarjeta.color-acento-botones.p-3(x="50%" y="27%" numero="+" style="background-color:#FFB206;box-shadow:0px 0px 15px rgba(0,0,0,.2);")
             p.mb-0.text-center.fw-bold(style="color:inherit;") Aplicaciones
-            p.mb-0.mt-2.text-center(style="color:inherit;") Las aplicaciones son vitales en las operaciones empresariales y deben protegerse para garantizar confidencialidad, integridad y disponibilidad. La ciberseguridad en esta capa requiere esfuerzos tanto en el desarrollo como en la operación. Es crucial integrar la ciberseguridad de forma transversal en el proceso de desarrollo de software interno.
+            p.mb-0.mt-2.text-center(style="color:inherit;") Las aplicaciones son vitales en las operaciones empresariales y deben protegerse para garantizar confidencialidad, integridad y disponibilidad. La ciberseguridad en esta capa requiere esfuerzos tanto en el desarrollo como en la operación. Es crucial integrar la ciberseguridad de forma transversal en el proceso de desarrollo de #[em software] interno.
           .tarjeta.color-acento-botones.p-3(x="50%" y="41.5%" numero="+" style="background-color:#FFB206;box-shadow:0px 0px 15px rgba(0,0,0,.2);")
             p.mb-0.text-center.fw-bold(style="color:inherit;") Servidores / Hosts
-            p.mb-0.mt-2.text-center(style="color:inherit;") Esta capa protege servidores según la importancia de los datos que manejan, empleando buenas prácticas y políticas de acceso para minimizar riesgos. El Hardening o endurecimiento, una técnica clave, implica la aplicación cuidadosa de prácticas para personalizar servidores, considerando hardware y software, fortaleciendo así su seguridad.
+            p.mb-0.mt-2.text-center(style="color:inherit;") Esta capa protege servidores según la importancia de los datos que manejan, empleando buenas prácticas y políticas de acceso para minimizar riesgos. El #[em(style="color:inherit;") Hardening] o endurecimiento, una técnica clave, implica la aplicación cuidadosa de prácticas para personalizar servidores, considerando #[em hardware] y #[em software], fortaleciendo así su seguridad.
           .tarjeta.color-acento-botones.p-3(x="50%" y="56%" numero="+" style="background-color:#FFB206;box-shadow:0px 0px 15px rgba(0,0,0,.2);")
             p.mb-0.text-center.fw-bold(style="color:inherit;") Red Interna y segmentación
-            p.mb-0.mt-2.text-center(style="color:inherit;") La seguridad de la red corporativa implica una estructura segmentada que incluye redes de servidores, comunicaciones, bases de datos y usuarios. Estos segmentos pueden dividirse por niveles, áreas o pisos. La interconexión se controla mediante firewalls y servicios de seguridad como IDS/IPS y Antimalware para garantizar una composición segura.
+            p.mb-0.mt-2.text-center(style="color:inherit;") La seguridad de la red corporativa implica una estructura segmentada que incluye redes de servidores, comunicaciones, bases de datos y usuarios. Estos segmentos pueden dividirse por niveles, áreas o pisos. La interconexión se controla mediante #[em(style="color:inherit;") firewalls] y servicios de seguridad como IDS/IPS y #[em(style="color:inherit;") Antimalware] para garantizar una composición segura.
           .tarjeta.color-acento-botones.p-3(x="50%" y="70.5%" numero="+" style="background-color:#FFB206;box-shadow:0px 0px 15px rgba(0,0,0,.2);")
             p.mb-0.text-center.fw-bold(style="color:inherit;") Perímetro y Seguridad perimetral
             p.mb-0.mt-2.text-center(style="color:inherit;") El perímetro representa el límite digital de la red corporativa y la internet. Implementar dispositivos de ciberseguridad en este borde es esencial para controlar y asegurar la red. Aunque también se refiere al límite físico, este aspecto se aborda en la capa de seguridad física.
@@ -178,7 +178,7 @@
     Separador
 
     .titulo-segundo(data-aos="zoom-in-right")
-      h2#t_3_3 3.3. Características de la defensa en profundidad
+      h2#t_3_3 3.3 Características de la defensa en profundidad
     
     .row
       .col-auto.d-none.d-md-block(data-aos="fade-right" style="place-self:center;")
@@ -191,8 +191,8 @@
     .row.mt-5
       .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
         TabsA.color-acento-contenido
-          .tarjeta.color-acento-botones.p-4(titulo="Frameworks" style="background-color:#FFF4D9;")
-            p.mb-0(style="color:inherit;") La apropiación de controles de ciberseguridad para la defensa en profundidad puede apalancarse en estándares, marcos de referencia o frameworks.
+          .tarjeta.color-acento-botones.p-4(titulo="<em>Frameworks</em>" style="background-color:#FFF4D9;")
+            p.mb-0(style="color:inherit;") La apropiación de controles de ciberseguridad para la defensa en profundidad puede apalancarse en estándares, marcos de referencia o #[em(style="color:inherit;") frameworks].
           .tarjeta.color-acento-botones.p-4(titulo="Capas o <br>barreras de <br>seguridad" style="background-color:#FFF4D9;")
             p.mb-0(style="color:inherit;") Dificultar el avance del agresor, si una barrera falla entonces debe entrar una segunda barrera de protección, y así en la medida de lo posible dentro del contexto, de esta forma se aplica el concepto de defensa en profundidad.
           .tarjeta.color-acento-botones.p-4(titulo="Monitoreo, <br>detección y <br> respuesta" style="background-color:#FFF4D9;")

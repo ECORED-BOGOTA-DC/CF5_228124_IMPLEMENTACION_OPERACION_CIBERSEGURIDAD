@@ -9,14 +9,14 @@
 
     p(data-aos="fade-right") Según Robbins y Couter (2005), la planificación consiste en #[strong “definir metas, establecer estrategias para alcanzarlas y trazar planes para integrar y coordinar el trabajo de la organización. Se ocupa tanto de los fines, lo que hay que hacer, como de los medios, como hay que hacerlo."](p. 158).
     p.mt-4(data-aos="fade-left") La planificación implica llevar a cabo un análisis detallado y definir los objetivos deseados, teniendo en cuenta los recursos fundamentales necesarios para alcanzarlos; los cuales, incluyen las habilidades y conocimientos de las personas, así como la tecnología, los materiales y otros elementos que se consideren esenciales para el logro de dichos objetivos.
-    p.mt-4(data-aos="fade-right") En razón a ello, es crucial prestar atención a los siguientes aspectos clave sobre la técnicas de planificación, como se presentan a continuación:
+    p.mt-4(data-aos="fade-right") En razón a ello, es crucial prestar atención a los siguientes aspectos clave sobre las técnicas de planificación, como se presentan a continuación:
 
     .tarjeta.tarjeta--azul.p-4.p-lg-5.mt-5(style="background-color:#DCCEE3;border-radius:0px;" data-aos="zoom-in-up")
       SlyderA(tipo="b")
         .row
           .col-lg-7.mb-4.mb-lg-0
             h5 Utilidad de la planificación
-            p.mt-4 La planificación traza las metas u objetivos en tiempos específicos ya sean en el corto, mediano y largo plazo, en donde se establecen las actividades a realizar con los respectivos responsables, y los medios necesarios para el cumplimiento de las mismas.
+            p.mt-4 La planificación traza las metas u objetivos en tiempos específicos, ya sean en el corto, mediano y largo plazo, en donde se establecen las actividades a realizar con los respectivos responsables, y los medios necesarios para el cumplimiento de las mismas.
           .col-lg-5
             figure.m-auto.col
               img(src='@/assets/curso/tema1/1.png')

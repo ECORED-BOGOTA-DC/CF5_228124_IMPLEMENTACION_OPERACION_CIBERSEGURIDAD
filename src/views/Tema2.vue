@@ -38,11 +38,11 @@
     Separador
 
     .titulo-segundo(data-aos="zoom-in-right")
-      h2#t_2_1 2.1. Fundamentos del entrenamiento en ciberseguridad
+      h2#t_2_1 2.1 Fundamentos del entrenamiento en ciberseguridad
 
     .row
       .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right" style="place-self:center;")
-        p Realizar el entrenamiento y los procesos de formación permanente con el personal de la organización, en busca de la mejora continua de la ciberseguridad, vincula la comprensión de algunos conceptos orientadores y regentes, con esto claro como soporte inicial, se garantiza un buen comienzo de procesos de concienciación.
+        p Realizar el entrenamiento y los procesos de formación permanente con el personal de la organización, en busca de la mejora continua de la ciberseguridad, vincula la comprensión de algunos conceptos orientadores y regentes, con esto claro, como soporte inicial, se garantiza un buen comienzo de procesos de concienciación.
         p.mt-4 A continuación se presenta información como un excelente punto de partida para aprender sobre los conceptos esenciales del entrenamiento y la concienciación en ciberseguridad. Tómese el tiempo para leer detenidamente y tomar notas para que pueda mejorar su comprensión de este importante tema.
       .col-lg-4(data-aos="fade-left" style="place-self:center;")
         figure.m-auto.col-7.col-md-8.col-lg-12
@@ -57,13 +57,14 @@
             img(src='@/assets/curso/tema2/6.png')
       .row.col-lg-11.m-auto(titulo="Vulnerabilidad y Amenaza")
         .col-md-6.mb-4.mb-md-0.col-lg-8
-          p La amenaza, es aquella #[strong ]"Circunstancia desfavorable que puede ocurrir y que cuando sucede tiene consecuencias negativas sobre los activos provocando su indisponibilidad, funcionamiento incorrecto o pérdida de valor. Si una amenaza acontece, a la vez que existe una vulnerabilidad aprovechando su existencia, puede derivar en un incidente de seguridad."] Incibe (2021).
+          p La vulnerabilidad es una "Debilidad o fallo de un sistema que puede ser aprovechado con fines maliciosos".
+          p.mt-3 La amenaza, es aquella #[strong ]"Circunstancia desfavorable que puede ocurrir y que cuando sucede tiene consecuencias negativas sobre los activos provocando su indisponibilidad, funcionamiento incorrecto o pérdida de valor. Si una amenaza acontece, a la vez que existe una vulnerabilidad aprovechando su existencia, puede derivar en un incidente de seguridad."] Incibe (2021).
         .col-md-6.col-lg-4
           figure.col-7.m-auto
             img(src='@/assets/curso/tema2/7.png')
       .row.col-lg-11.m-auto(titulo="Amenaza avanzada persistente (APT)")
         .col-md-6.mb-4.mb-md-0.col-lg-8
-          p "También conocido como APT, acrónimo en inglés de #[em Advanced Persistent Threat], consiste en un tipo de ataque informático que se caracteriza por realizarse con sigilo, permaneciendo activo y oculto durante mucho tiempo, utilizando diferentes formas de ataque. Suelen estar patrocinados por compañías, mafias o un estado “. Incibe (2021)
+          p "También conocido como APT, acrónimo en inglés de Advanced Persistent Threat, consiste en un tipo de ataque informático que se caracteriza por realizarse con sigilo, permaneciendo activo y oculto durante mucho tiempo, utilizando diferentes formas de ataque. Suelen estar patrocinados por compañías, mafias o un estado “. Incibe (2021)
         .col-md-6.col-lg-4
           figure.col-7.m-auto
             img(src='@/assets/curso/tema2/8.png')
@@ -75,17 +76,17 @@
             img(src='@/assets/curso/tema2/9.png')
       .row.col-lg-11.m-auto(titulo="Ciberdelincuente")
         .col-md-6.mb-4.mb-md-0.col-lg-8
-          p "Persona que realiza actividades delictivas en la red contra personas o sistemas informáticos, pudiendo provocar daños económicos o reputacionales mediante robo, filtrado de información, deterioro de software o hardware, fraude y extorsión. Casi siempre están orientados a la obtención de fines económicos." Incibe (2021)
+          p "Persona que realiza actividades delictivas en la red contra personas o sistemas informáticos, pudiendo provocar daños económicos o reputacionales mediante robo, filtrado de información, deterioro de #[em software] o #[em hardware], fraude y extorsión. Casi siempre están orientados a la obtención de fines económicos." Incibe (2021)
         .col-md-6.col-lg-4
           figure.col-7.m-auto
             img(src='@/assets/curso/tema2/10.png')
-      .row.col-lg-11.m-auto(titulo="Malware")
+      .row.col-lg-11.m-auto(titulo="<em>Malware</em>")
         .col-md-6.mb-4.mb-md-0.col-lg-8
-          p "Es un tipo de software que tiene como objetivo dañar o infiltrarse sin el consentimiento de su propietario en un sistema de información. Palabra que nace de la unión de los términos en inglés de software malintencionado: malicious software. Dentro de esta definición tiene cabida un amplio elenco de programas maliciosos: virus, gusanos, troyanos, backdoors, spyware, etc. La nota común a todos estos programas es su carácter dañino o lesivo." Incibe (2021)
+          p "Es un tipo de #[em software] que tiene como objetivo dañar o infiltrarse sin el consentimiento de su propietario en un sistema de información. Palabra que nace de la unión de los términos en inglés de #[em software] malintencionado: #[em malicious software]. Dentro de esta definición tiene cabida un amplio elenco de programas maliciosos: virus, gusanos, troyanos, #[em backdoors, spyware], etc. La nota común a todos estos programas es su carácter dañino o lesivo." Incibe (2021)
         .col-md-6.col-lg-4
           figure.col-7.m-auto
             img(src='@/assets/curso/tema2/11.png')
-      .row.col-lg-11.m-auto(titulo="Phishing")
+      .row.col-lg-11.m-auto(titulo="<em>Phishing</em>")
         .col-md-6.mb-4.mb-md-0.col-lg-8
           p "Técnica o tipo de ataque en el que alguien suplanta a una entidad/servicio mediante un correo electrónico o mensaje instantáneo para conseguir las credenciales o información de la tarjeta de crédito de un usuario. Ese correo/mensaje suele tener un enlace (o fichero que contiene ese enlace) a un sitio web que suplanta al legítimo y que usan para engañarlo.” Incibe (2021)
         .col-md-6.col-lg-4
@@ -129,7 +130,7 @@
       .py-4.py-md-5(titulo="Operativo" :icono="require('@/assets/curso/tema2/17.svg')")
         .row.col-xl-11.m-auto
           .col-lg-8.mb-4.mb-lg-0
-            p Fortalecimiento de los conocimientos teórico-prácticos con un enfoque técnico que permita mejorar el desempeño operativo de herramientas, software o hardware, pudiendo mejorar las configuraciones para el rendimiento y eficacia de las mismas. En este sentido, el entrenamiento operativo permite conocer las mejores prácticas técnicas para aplicar controles de ciberseguridad.
+            p Fortalecimiento de los conocimientos teórico-prácticos con un enfoque técnico que permita mejorar el desempeño operativo de herramientas, #[em software] o #[em hardware], pudiendo mejorar las configuraciones para el rendimiento y eficacia de las mismas. En este sentido, el entrenamiento operativo permite conocer las mejores prácticas técnicas para aplicar controles de ciberseguridad.
           .col-lg-4
             figure.m-auto.col-7.col-md-7.col-lg-12
               img(src='@/assets/curso/tema2/18.png')
@@ -150,7 +151,7 @@
       .py-4.py-md-5(titulo="Forma o modalidad" :icono="require('@/assets/curso/tema2/23.svg')")
         .row.col-xl-11.m-auto
           .col-lg-8.mb-4.mb-lg-0
-            p El entrenamiento puede darse por medio de terceros especializados en la materia y con la acreditación respectiva, tales como instituciones de educación superior profesional, tecnológica y técnica, institutos de educación no formal y profesionales capacitados y certificados.
+            p El entrenamiento puede realizarse en forma de cursos, certificaciones, talleres, asesorías y consultorías.
           .col-lg-4
             figure.m-auto.col-7.col-md-7.col-lg-12
               img(src='@/assets/curso/tema2/24.png')
@@ -171,7 +172,7 @@
           p.mb-0 Consiste en la acción de apropiar una responsabilidad directa o indirecta sobre algo que sucede en el entorno; en cierto modo es educar moralmente sobre algo, por ejemplo, sobre la mala alimentación, la tala indiscriminada de árboles, el consumo de sustancias psicoactivas, entre otras muchas realidades.
     
     p.mt-5(data-aos="fade-right") En ciberseguridad la concienciación se enfoca en la acción de asumir la responsabilidad directa o indirecta por la confidencialidad, la integridad y la disponibilidad de la información.
-    p.mt-4(data-aos="fade-left") En este sentido la concienciación se enfoca a tres grupos de interés claves:
+    p.mt-4(data-aos="fade-left") En este sentido, la concienciación se enfoca a tres grupos de interés claves:
 
     .col-xl-10.m-auto.mt-5
       .row.justify-content-center
@@ -251,7 +252,7 @@
     Separador
 
     .titulo-segundo(data-aos="zoom-in-right")
-      h2#t_2_2 2.2. Características del entrenamiento
+      h2#t_2_2 2.2 Características del entrenamiento
     
     p(data-aos="fade-left") Las características comunes del entrenamiento y concienciación en ciberseguridad se centran en que ambos son elementos claves para instaurar una cultura de ciberseguridad en una organización; ambas se pueden aplicar a cualquier parte interna o externa de la compañía, comparten conceptos de formación y los propósitos de fortalecer el factor humano y la aplicación de mejores prácticas de seguridad en la apropiación de las tecnologías.
     p.mt-4(data-aos="fade-right") A continuación, se detallan algunas características.
@@ -263,7 +264,7 @@
           p.text-small(numero="2" titulo="Recursos formativos") Consisten en materiales de texto y multimedia de apoyo para el entrenamiento y concienciación, pudiendo abordar diversas temáticas de ciberseguridad y tecnología en formatos de documentos de texto, presentaciones y recursos multimedia (imagen, audio y video).
           p.text-small(numero="3" titulo="Emulación de ataques dirigidos controlados") Permite entrenar y concientizar por medio de la práctica de emulación controlada de ataques dirigidos a sistemas y personas, entre estas prácticas se aplican técnicas de la ingeniería social para poder medir el nivel de concienciación de las personas, así como la capacidad de respuesta de los operadores de tecnología.
           p.text-small(numero="4" titulo="Tips y comunicados") Es una característica que permite preparar y generar conciencia en ciberseguridad de manera ágil y dinámica, de tal forma que los participantes aprenden poco a poco por medio de pequeñas cápsulas informativas de gran valor y fácil de comprender.
-          p.text-small(numero="5" titulo="Encuestas de satisfacción") Cuando se realizan actividades de entrenamiento y concientización se hace útil realizar mediciones para ver el nivel de satisfacción para determinar si las actividades están siendo adecuadas y no suponen una carga más para los grupos de interés. De esta manera se pueden generar actividades dinámicas y eficientes en función de un adecuado entrenamiento y concienciación en ciberseguridad.
+          p.text-small(numero="5" titulo="Encuestas de satisfacción") Cuando se realizan actividades de entrenamiento y concientización, se hace útil realizar mediciones para ver el nivel de satisfacción para determinar si las actividades están siendo adecuadas y no suponen una carga más para los grupos de interés. De esta manera se pueden generar actividades dinámicas y eficientes en función de un adecuado entrenamiento y concienciación en ciberseguridad.
           p.text-small(numero="6" titulo="Test de evaluación y retroalimentación") Permiten reflejar el nivel de conocimientos y concienciación que tienen los grupos de interés, dueños de negocio, los operadores técnicos y los usuarios de los sistemas de información, de tal forma que se pueda realizar la retroalimentación pertinente en los temas de ciberseguridad que se deben fortalecer, así como también permite tomar acciones para certificar, felicitar y motivar a los grupos de interés en la aplicación de las políticas y buenas prácticas en ciberseguridad.
           p.text-small(numero="7" titulo="Proceso continuo") Otra característica fundamental es que tanto para la concienciación y el entrenamiento en ciberseguridad, se debe mantener como un proceso continuo, debido a los constantes cambios en los factores tecnológicos, los procesos y del personal dentro de la organización.
       .col-lg-4(data-aos="fade-left")
