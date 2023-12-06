@@ -157,7 +157,7 @@
             p.mb-0.text-center.fw-bold(style="color:inherit;") Aplicaciones
             p.mb-0.mt-2.text-center(style="color:inherit;") Las aplicaciones son vitales en las operaciones empresariales y deben protegerse para garantizar confidencialidad, integridad y disponibilidad. La ciberseguridad en esta capa requiere esfuerzos tanto en el desarrollo como en la operación. Es crucial integrar la ciberseguridad de forma transversal en el proceso de desarrollo de #[em software] interno.
           .tarjeta.color-acento-botones.p-3(x="50%" y="41.5%" numero="+" style="background-color:#FFB206;box-shadow:0px 0px 15px rgba(0,0,0,.2);")
-            p.mb-0.text-center.fw-bold(style="color:inherit;") Servidores / Hosts
+            p.mb-0.text-center.fw-bold(style="color:inherit;") Servidores / #[em(style="color:inherit;") Hosts]
             p.mb-0.mt-2.text-center(style="color:inherit;") Esta capa protege servidores según la importancia de los datos que manejan, empleando buenas prácticas y políticas de acceso para minimizar riesgos. El #[em(style="color:inherit;") Hardening] o endurecimiento, una técnica clave, implica la aplicación cuidadosa de prácticas para personalizar servidores, considerando #[em hardware] y #[em software], fortaleciendo así su seguridad.
           .tarjeta.color-acento-botones.p-3(x="50%" y="56%" numero="+" style="background-color:#FFB206;box-shadow:0px 0px 15px rgba(0,0,0,.2);")
             p.mb-0.text-center.fw-bold(style="color:inherit;") Red Interna y segmentación
