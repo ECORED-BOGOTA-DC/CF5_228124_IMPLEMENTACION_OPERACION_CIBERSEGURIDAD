@@ -163,7 +163,7 @@
             p.mb-0.text-center.fw-bold(style="color:inherit;") Red Interna y segmentación
             p.mb-0.mt-2.text-center(style="color:inherit;") La seguridad de la red corporativa implica una estructura segmentada que incluye redes de servidores, comunicaciones, bases de datos y usuarios. Estos segmentos pueden dividirse por niveles, áreas o pisos. La interconexión se controla mediante #[em(style="color:inherit;") firewalls] y servicios de seguridad como IDS/IPS y #[em(style="color:inherit;") Antimalware] para garantizar una composición segura.
           .tarjeta.color-acento-botones.p-3(x="50%" y="70.5%" numero="+" style="background-color:#FFB206;box-shadow:0px 0px 15px rgba(0,0,0,.2);")
-            p.mb-0.text-center.fw-bold(style="color:inherit;") Perímetro y Seguridad perimetral
+            p.mb-0.text-center.fw-bold(style="color:inherit;") Perímetro y seguridad perimetral
             p.mb-0.mt-2.text-center(style="color:inherit;") El perímetro representa el límite digital de la red corporativa y la internet. Implementar dispositivos de ciberseguridad en este borde es esencial para controlar y asegurar la red. Aunque también se refiere al límite físico, este aspecto se aborda en la capa de seguridad física.
           .tarjeta.color-acento-botones.p-3(x="50%" y="85%" numero="+" style="background-color:#FFB206;box-shadow:0px 0px 15px rgba(0,0,0,.2);")
             p.mb-0.text-center.fw-bold(style="color:inherit;") Seguridad física

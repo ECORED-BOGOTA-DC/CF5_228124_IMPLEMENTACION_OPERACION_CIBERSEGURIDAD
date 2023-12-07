@@ -45,7 +45,7 @@
     Separador
 
     .titulo-segundo(data-aos="zoom-in-right")
-      h2#t_1_1 1.1. Pronósticos cualitativos y cuantitativos
+      h2#t_1_1 1.1 Pronósticos cualitativos y cuantitativos
     
     p(data-aos="fade-left") Para Robbins y Couter (2005), #[strong “en los pronósticos cuantitativos se aplican reglas matemáticas a conjuntos de datos para predecir resultados. Mientras que los cualitativos están basados en el buen juicio y las opiniones de conocedores para predecir resultados"] (p. 208).
     p.mt-4(data-aos="fade-right") Analice la siguiente tabla en la que se identifican las técnicas tanto cuantitativas como cualitativas de los pronósticos en la planeación:
@@ -102,7 +102,7 @@
     Separador
 
     .titulo-segundo(data-aos="zoom-in-right")
-      h2#t_1_2 1.2. Planificación, necesidades y contexto organizacional
+      h2#t_1_2 1.2 Planificación, necesidades y contexto organizacional
     
     p(data-aos="fade-left") Las técnicas para la planificación pueden ser aplicadas según las necesidades y el contexto de la organización. De la misma forma en que se aplica el análisis del punto de equilibrio, la programación lineal o la planeación de escenarios.
 
