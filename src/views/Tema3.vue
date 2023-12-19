@@ -59,7 +59,7 @@
               img(src='@/assets/curso/tema3/5.png' alt="Imagen decorativa")
           .col-md-6.col-lg-8
             h5 Sistemas de correlación de eventos o #[em Logs], Security Information and Event Management – SIEM
-            p.mt-4 Los SIEM son herramientas o soluciones que se enfocan en gestionar los eventos, con capacidades para detectar de manera centralizada los #[em logs] o registros de los diversos dispositivos en la red, esto ayuda a responder y neutralizar ciber amenazas. También permite tener una visión global de la seguridad de las tecnologías.
+            p.mt-4 Los SIEM son herramientas o soluciones que se enfocan en gestionar los eventos, con capacidades para detectar de manera centralizada los #[em logs] o registros de los diversos dispositivos en la red, esto ayuda a responder y neutralizar ciberamenazas. También permite tener una visión global de la seguridad de las tecnologías.
         .row(titulo="4")
           .col-md-6.mb-4.mb-md-0.col-lg-4
             figure
@@ -173,7 +173,7 @@
             p.mb-0.mt-2.text-center(style="color:inherit;") En esta capa, se establecen pautas para la gestión, operación y concienciación de la ciberseguridad, incluyendo seguridad física, control de acceso, gestión de redes y cumplimiento legal, entre otros aspectos clave de la seguridad digital.
     
     figure.mt-5(data-aos="zoom-in-up")
-      img(src="@/assets/curso/tema3/15.svg" alt="Imagen decorativa")
+      img(src="@/assets/curso/tema3/15.svg" alt="Imagen que menciona aspectos que tienen que ver con las capas de la defensa en profundidad.")
   
     Separador
 

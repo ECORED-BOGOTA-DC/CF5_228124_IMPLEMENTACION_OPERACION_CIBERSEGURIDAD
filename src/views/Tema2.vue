@@ -33,7 +33,7 @@
           figure.col-lg-10.col-md-7.col-7.m-auto
             img(src="@/assets/curso/tema2/4.svg" alt="Imagen decorativa")
           h5.mt-5 Formación permanente
-          p.mt-4 Apropiar la ciberseguridad en la organizaciones implica mantener la formación y concienciación permanentes, en ciberseguridad, como estrategia para el cumplimiento y mejora continua.
+          p.mt-4 Apropiar la ciberseguridad en las organizaciones implica mantener la formación y concienciación permanentes, en ciberseguridad, como estrategia para el cumplimiento y mejora continua.
     
     Separador
 
@@ -51,44 +51,44 @@
     AcordionA.mt-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
       .row.col-lg-11.m-auto(titulo="Activo de Información")
         .col-md-6.mb-4.mb-md-0.col-lg-8
-          p "Es cualquier información o sistema relacionado con el tratamiento de la misma que tenga valor para la organización, pueden ser procesos de negocio, datos, aplicaciones, equipos informáticos, personal, soportes de información, redes, equipamiento auxiliar o instalaciones. Es susceptible de ser atacado deliberada o accidentalmente con consecuencias para la organización “. Incibe (2021).
+          p “Es cualquier información o sistema relacionado con el tratamiento de la misma que tenga valor para la organización, pueden ser procesos de negocio, datos, aplicaciones, equipos informáticos, personal, soportes de información, redes, equipamiento auxiliar o instalaciones. Es susceptible de ser atacado deliberada o accidentalmente con consecuencias para la organización”. Incibe (2021).
         .col-md-6.col-lg-4
           figure.col-7.m-auto
             img(src='@/assets/curso/tema2/6.png' alt="Imagen decorativa")
       .row.col-lg-11.m-auto(titulo="Vulnerabilidad y Amenaza")
         .col-md-6.mb-4.mb-md-0.col-lg-8
-          p La vulnerabilidad es una "Debilidad o fallo de un sistema que puede ser aprovechado con fines maliciosos".
-          p.mt-3 La amenaza, es aquella #[strong ]"Circunstancia desfavorable que puede ocurrir y que cuando sucede tiene consecuencias negativas sobre los activos provocando su indisponibilidad, funcionamiento incorrecto o pérdida de valor. Si una amenaza acontece, a la vez que existe una vulnerabilidad aprovechando su existencia, puede derivar en un incidente de seguridad."] Incibe (2021).
+          p La vulnerabilidad es una “Debilidad o fallo de un sistema que puede ser aprovechado con fines maliciosos”.
+          p.mt-3 La amenaza, es aquella #[strong ]“Circunstancia desfavorable que puede ocurrir y que cuando sucede tiene consecuencias negativas sobre los activos provocando su indisponibilidad, funcionamiento incorrecto o pérdida de valor. Si una amenaza acontece, a la vez que existe una vulnerabilidad aprovechando su existencia, puede derivar en un incidente de seguridad”. Incibe (2021).
         .col-md-6.col-lg-4
           figure.col-7.m-auto
             img(src='@/assets/curso/tema2/7.png' alt="Imagen decorativa")
       .row.col-lg-11.m-auto(titulo="Amenaza avanzada persistente (APT)")
         .col-md-6.mb-4.mb-md-0.col-lg-8
-          p "También conocido como APT, acrónimo en inglés de Advanced Persistent Threat, consiste en un tipo de ataque informático que se caracteriza por realizarse con sigilo, permaneciendo activo y oculto durante mucho tiempo, utilizando diferentes formas de ataque. Suelen estar patrocinados por compañías, mafias o un estado “. Incibe (2021)
+          p “También conocido como APT, acrónimo en inglés de Advanced Persistent Threat, consiste en un tipo de ataque informático que se caracteriza por realizarse con sigilo, permaneciendo activo y oculto durante mucho tiempo, utilizando diferentes formas de ataque. Suelen estar patrocinados por compañías, mafias o un estado”. Incibe (2021)
         .col-md-6.col-lg-4
           figure.col-7.m-auto
             img(src='@/assets/curso/tema2/8.png' alt="Imagen decorativa")
       .row.col-lg-11.m-auto(titulo="Ciberataque")
         .col-md-6.mb-4.mb-md-0.col-lg-8
-          p "Intento deliberado de un ciberdelincuente de obtener acceso a un sistema informático sin autorización, sirviéndose de diferentes técnicas y vulnerabilidades para la realización de actividades con fines maliciosos, como el robo de información, extorsión del propietario o simplemente daños al sistema." Incibe (2021)
+          p “Intento deliberado de un ciberdelincuente de obtener acceso a un sistema informático sin autorización, sirviéndose de diferentes técnicas y vulnerabilidades para la realización de actividades con fines maliciosos, como el robo de información, extorsión del propietario o simplemente daños al sistema”. Incibe (2021)
         .col-md-6.col-lg-4
           figure.col-7.m-auto
             img(src='@/assets/curso/tema2/9.png' alt="Imagen decorativa")
       .row.col-lg-11.m-auto(titulo="Ciberdelincuente")
         .col-md-6.mb-4.mb-md-0.col-lg-8
-          p "Persona que realiza actividades delictivas en la red contra personas o sistemas informáticos, pudiendo provocar daños económicos o reputacionales mediante robo, filtrado de información, deterioro de #[em software] o #[em hardware], fraude y extorsión. Casi siempre están orientados a la obtención de fines económicos." Incibe (2021)
+          p “Persona que realiza actividades delictivas en la red contra personas o sistemas informáticos, pudiendo provocar daños económicos o reputacionales mediante robo, filtrado de información, deterioro de #[em software] o #[em hardware], fraude y extorsión. Casi siempre están orientados a la obtención de fines económicos”. Incibe (2021)
         .col-md-6.col-lg-4
           figure.col-7.m-auto
             img(src='@/assets/curso/tema2/10.png' alt="Imagen decorativa")
       .row.col-lg-11.m-auto(titulo="<em>Malware</em>")
         .col-md-6.mb-4.mb-md-0.col-lg-8
-          p "Es un tipo de #[em software] que tiene como objetivo dañar o infiltrarse sin el consentimiento de su propietario en un sistema de información. Palabra que nace de la unión de los términos en inglés de #[em software] malintencionado: #[em malicious software]. Dentro de esta definición tiene cabida un amplio elenco de programas maliciosos: virus, gusanos, troyanos, #[em backdoors, spyware], etc. La nota común a todos estos programas es su carácter dañino o lesivo." Incibe (2021)
+          p “Es un tipo de #[em software] que tiene como objetivo dañar o infiltrarse sin el consentimiento de su propietario en un sistema de información. Palabra que nace de la unión de los términos en inglés de #[em software] malintencionado: #[em malicious software]. Dentro de esta definición tiene cabida un amplio elenco de programas maliciosos: virus, gusanos, troyanos, #[em backdoors, spyware], etc. La nota común a todos estos programas es su carácter dañino o lesivo”. Incibe (2021)
         .col-md-6.col-lg-4
           figure.col-7.m-auto
             img(src='@/assets/curso/tema2/11.png' alt="Imagen decorativa")
       .row.col-lg-11.m-auto(titulo="<em>Phishing</em>")
         .col-md-6.mb-4.mb-md-0.col-lg-8
-          p "Técnica o tipo de ataque en el que alguien suplanta a una entidad/servicio mediante un correo electrónico o mensaje instantáneo para conseguir las credenciales o información de la tarjeta de crédito de un usuario. Ese correo/mensaje suele tener un enlace (o fichero que contiene ese enlace) a un sitio web que suplanta al legítimo y que usan para engañarlo.” Incibe (2021)
+          p “Técnica o tipo de ataque en el que alguien suplanta a una entidad/servicio mediante un correo electrónico o mensaje instantáneo para conseguir las credenciales o información de la tarjeta de crédito de un usuario. Ese correo/mensaje suele tener un enlace (o fichero que contiene ese enlace) a un sitio web que suplanta al legítimo y que usan para engañarlo”. Incibe (2021)
         .col-md-6.col-lg-4
           figure.col-7.m-auto
             img(src='@/assets/curso/tema2/12.png' alt="Imagen decorativa")

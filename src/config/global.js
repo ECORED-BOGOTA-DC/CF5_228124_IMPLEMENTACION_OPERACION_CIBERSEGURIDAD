@@ -195,7 +195,7 @@ export default {
     {
       referencia: 'Robbins, R. & Couter, M. (2005). <em>Administración</em>.',
       link:
-        'https://www.auditorlider.com/wp-content/uploads/2019/06/Administracion-8ed-Stephen-P.-Robbins-y-Mary-Coulter-1.pdf',
+        'https://www.ceut.edu.mx/Biblioteca/books/Administraci%C3%B3n/Administraci%C3%B3n-Robbins.pdf',
     },
     {
       referencia:
